@@ -1,0 +1,31 @@
+.patient-table-container {
+  margin: 20px;
+}
+
+h2 {
+  color: #095d7e;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: #095d7e;
+  color: #cdecee;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #cdecee;
+}
+
+tbody tr:hover {
+  background-color: #15977e;
+  color: #cdecee;
+}

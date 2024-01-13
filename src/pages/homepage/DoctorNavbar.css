@@ -1,0 +1,36 @@
+nav {
+  background-color: #095d7e;
+  padding: 10px 20px;
+  color: #cdecee;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  color: #cdecee;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #15977e;
+}
